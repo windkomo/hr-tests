@@ -1,0 +1,251 @@
+<% include head %>
+<link href="/css/index.css" rel="stylesheet">
+</head>
+
+	<body>
+
+		<!-- Wrap all page content here -->
+		<div id="wrap" ng-controller="LandingCtrl">
+
+			<% include navbar %>
+
+			<!-- Begin page content -->
+			<div class="container home">
+
+				<img src="http://d13iccluy1t0t3.cloudfront.net/img/home_banner.jpg" class="banner" />
+
+				<div class="page-header">
+					<h1 class="brand_font tagline">Vous courez.</h1>
+					<h1 class="brand_font tagline">Soyez récompensé.</h1>
+
+					<div id="signin-buttons">
+						<button type="button" class="btn btn-lg signup_btn brand_font brand_red_bg" ng-click="showLogin('signup')">
+							S'INSCRIRE
+							<div class="gratuit brand_font_light">C'est gratuit</div>
+						</button>
+						<button type="button" class="btn btn-lg signin_btn brand_font" ng-click="showLogin('signin')">SE CONNECTER</button>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="container brands">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-xs-4"><span class="nike"></span></div>
+							<div class="col-xs-4"><span class="runtastic"></span></div>
+							<div class="col-xs-4"><span class="garmin"></span></div>					
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div class="row">
+							<div class="col-xs-7"><span class="runkeeper"></span></div>
+							<div class="col-xs-5"><span class="strava"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container description">
+				<h1 class="brand_red brand_font_light"><span>•</span> Le principe <span>•</span></h1>
+				<div class="wrapper">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="card">
+								<span class="card_number brand_font_light">1</span>
+								<div class="picto"><div class="screens"></div></div>
+								<div class="title brand_red brand_font">CONNECTEZ <br />votre application <br />de running</div>
+								<div class="content brand_font_light">
+									Vous avez simplement à nous indiquer quelle est l’application, ou la montre GPS, que vous utilisez déjà.
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card">
+								<span class="card_number brand_font_light">2</span>
+								<div class="picto"><div class="runner"></div></div>
+								<div class="title brand_red brand_font">COUREZ <br />et gagnez <br />des points d'effort</div>
+								<div class="content brand_font_light">
+									Grâce à notre algorithme intelligent, chacun de vos entraînements vous fait automatiquement gagner des points d’effort.
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card">
+								<span class="card_number brand_font_light">3</span>
+								<div class="picto"><div class="coupons"></div></div>
+								<div class="title brand_red brand_font">BÉNÉFICIEZ <br />de récompenses <br />exclusives</div>
+								<div class="content brand_font_light">
+									Convertissez vos points d’effort en offres exclusives, bons de réduction et expériences proposés par nos marques partenaires.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row grey function">
+						<div class="col-xs-12 brand_font_light">Fonctionne avec :</div>
+					</div>
+					<div class="row grey running_apps brand_font_light">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-xs-4"><span class="nike_app">NIKE +</span></div>
+									<div class="col-xs-4"><span class="runtastic_app">Runtastic</span></div>
+									<div class="col-xs-4"><span class="garmin_app">Garmin</span></div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-xs-4"><span class="runkeeper_app">Runkeeper</span></div>
+									<div class="col-xs-4"><span class="strava_app">Strava</span></div>
+									<div class="col-xs-4"><span class="mapmyrun_app">MapMyRun</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container about">
+				<!-- <img src="../img/about_banner.jpg" class="banner" /> -->
+				<h1 class="brand_font_light"><span>•</span> A propos <span>•</span></h1>
+				<div class="wrapper2">
+					<div class="row brand_font_light">
+						<div class="col-md-4"><div>
+							Les coureurs sont les porteurs et véhicules des valeurs de volonté, de dépassement de soi, de bien-être et de solidarité qui guident notre pratique. Quel que soit leur niveau et leurs objectifs, tous les coureurs partagent cet état d’esprit.
+						</div></div>
+						<div class="col-md-4"><div>
+							Chez Running Heroes, nous sommes convaincus que les coureurs, en transmettant ces valeurs à leur entourage, font figure d’exemple et sont source d’inspiration. En cela, les coureurs sont les héros des temps modernes.
+						</div></div>
+						<div class="col-md-4"><div>
+							C’est pourquoi la mission de Running Heroes est d’encourager, de valoriser et de récompenser la pratique de la course à pied. Les marques partenaires qui nous accompagnent dans cette aventure partagent notre vision et s’associent à notre démarche.
+						</div></div>
+					</div>
+				</div>
+				<a name="faq">&nbsp;</a>
+			</div>
+
+			<div class="container partners">
+				<h1 class="brand_font_light"><span>•</span> Nos partenaires <span>•</span></h1>
+				<div id="slick-partners" class="slick-carrousel">
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/puma_logo.jpg" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/Lining-Logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/planet-jogging.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/endurance-shop.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/aso-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/Vibramlogo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/casal-sport-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/crossdufigaro-logo.jpg" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/DamartLogo.jpg" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/zatopek_logo.jpg" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/gosport-runningtour-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/fitsip_logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/jiwok-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/faguo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/izbac_logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/jobbers.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/LogoXrun_New_Horizontal.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/modizy-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/pixopolitan.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/simalti-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/swani-logo.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/trailduverdon.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/unik.png" class="partner-img" /></div>
+					<div><img src="http://d13iccluy1t0t3.cloudfront.net/img/rewards/douzaleur.png" class="partner-img" /></div>
+				</div>
+			</div>
+
+			<div class="container press">
+				<h1 class="brand_font_light"><span>•</span> Ils parlent de nous <span>•</span></h1>
+				<div id="slick-press" class="slick-carrousel">
+					<div><a href="http://lemag.eurosport.fr/article/courir-plus-pour-gagner-plus_a44073/1" target="_blank">
+						<img src="http://d13iccluy1t0t3.cloudfront.net/img/press/eurosport-logo.png" class="press-img" />
+					</a></div>
+					<div><a href="http://www.francebleu.fr/infos/footing/plus-vous-courez-plus-vous-faites-des-economies-1455911" target="_blank">
+						<img src="http://d13iccluy1t0t3.cloudfront.net/img/press/francebleu_logo.png" class="press-img" />
+					</a></div>
+					<div><a href="http://lentreprise.lexpress.fr/creation-entreprise/idees-business/running-heroes-remunere-le-running_1523877.html" target="_blank">
+						<img src="http://d13iccluy1t0t3.cloudfront.net/img/press/lexpress-logo.png" class="press-img" />
+					</a></div>
+					<div><a href="http://www.dailymotion.com/video/x1nmfde_zoom365-le-running-devenu-business_sport" target="_blank">
+						<img src="http://d13iccluy1t0t3.cloudfront.net/img/press/sport365_logo.png" class="press-img" />
+					</a></div>
+					<div><a href="http://www.maddyness.com/startup/2014/03/25/running-heroes-maddypitch/" target="_blank">
+						<img src="http://d13iccluy1t0t3.cloudfront.net/img/press/maddyness_logo.png" class="press-img" />
+					</a></div>
+				</div>
+				<a name="faq">&nbsp;</a>
+			</div>
+
+			<div class="container faq">
+				<h1 class="brand_font_light"><span>•</span> FAQ <span>•</span></h1>
+				<div class="wrapper">
+					<div class="panel-group brand_font_light question">
+						<div class="panel panel-default" ng-repeat="faq in faqs">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a ng-init="Q1isCollapsed=true" ng-click="Q1isCollapsed = !Q1isCollapsed">
+										<span class="caret" ng-class="{true:'rotate'}[Q1isCollapsed]"></span>{{faq.question}}
+									</a>
+								</h4>
+							</div>
+							<div collapse="Q1isCollapsed">
+								<div class="panel-body" ng-bind-html="faq.response"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="text-align:center;">
+					<!-- <div data-uv-embed="contact" data-uv-locale="fr" collapse="isFeedbackCollapsed"></div> -->
+					<a class="btn btn-lg question_btn brand_font_light" href="https://runningheroes.zendesk.com/account/dropboxes/20278222" 
+						target="_blank" onClick="script: Zenbox.show(); return false;">
+						Posez une question
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<!-- end of wrap -->
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#slick-partners, #slick-press').slick({
+					dots: true,
+					infinite: true,
+					speed: 300,
+					slidesToShow: 5,
+					slidesToScroll: 5,
+					responsive: [
+						{
+							breakpoint: 1024,
+							settings: {
+								slidesToShow: 3,
+								slidesToScroll: 3,
+								infinite: true,
+								dots: true
+							}
+						},
+						{
+							breakpoint: 600,
+							settings: {
+								slidesToShow: 2,
+								slidesToScroll: 2
+							}
+						},
+						{
+							breakpoint: 510,
+							settings: {
+								slidesToShow: 1,
+								slidesToScroll: 1
+							}
+						}
+					]
+				});
+			});
+		</script>
+
+		<% include footer %>
+		<% include js %>
+	</body>
+</html>

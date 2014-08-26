@@ -1,0 +1,58 @@
+[
+	{
+		"question": "Comment fonctionne Running Heroes?",
+		"response": "Cela ne peut pas être plus simple. Running Heroes est connecté aux applications de running les plus populaires, en nous indiquant quelle est l’application que vous utilisez en courant, nous pouvons alors vous récompenser par des points d’effort. En cumulant des points d’effort, vous pouvez bénéficier d’offres exclusives que vous proposent les marques partenaires de Running Heroes."
+	},
+	{
+		"question": "J’utilise déjà une application pour courir, pourquoi utiliser Running Heroes?",
+		"response": "Les applications de tracking vous permettent de mesurer et comparer vos courses.<br /><br />Running Heroes vous permet d’être récompensé pour celles-ci. Nous sommes donc complémentaires aux applications existantes.<br /><br />Ne changez donc rien à vos habitudes, et continuez de courir avec votre application préférée. En vous inscrivant sur Running Heroes, vous serez simplement récompensé pour cela."
+	},
+	{
+		"question": "Combien cela coûte?",
+		"response": "Rien. Running Heroes est un service complètement gratuit pour les coureurs, et il le restera. Cela ne coûte donc rien, et au contraire, maintenant, courir vous rapporte."
+	},
+	{
+		"question": "Comment connecter mon application de running, ou ma montre GPS?",
+		"response": "Running Heroes fonctionne avec RunKeeper, Strava, Nike+, Runtastic, MapMyRun et les montres GPS Garmin.<br /><br />Pour connecter votre service de running, il suffit de nous indiquer votre nom d’utilisateur et votre mot de passe de votre compte RunKeeper, Strava, Nike+, Runtastic ou Garmin afin que nous effectuions la connexion entre les deux services.<br /><br />Pour Nike+ et Runtastic, il se peut que vous n’ayez pas de mot de passe, notamment si vous avez choisi de vous inscrire à ces applications via Facebook ou Twitter. Pour vous inscrire à Running Heroes, il vous faut donc aller sur votre compte Nike+ ou Runtastic pour vous créer un mot de passe, et nous le communiquer.<br /><br />Pour Nike+ <a href='https://secure-nikeplus.nike.com/plus/settings/' target='_blank'>c'est par ici</a> et pour Runtastic rendez-vous sur leur site web dans le menu déroulant en haut à droite à côté de votre nom, cliquez sur 'Paramètres' puis dans la liste à gauche sur 'Données de connexion'.<br /><br />Cette connexion n’est nécessaire qu’une seule fois lors de votre inscription. Ensuite, vos activités sont automatiquement synchronisées avec Running Heroes.<br /><br />Lors de la connexion d’une application, Running Heroes prend en compte la dernière activité enregistrée pour vérifier que la synchronisation s’effectue correctement. Dès votre première connexion, vous commencez donc à gagner des points&nbsp;!"
+	},
+	{
+		"question": "Comment faire si mon application, ou ma montre GPS préférée ne fonctionne pas avec Running Heroes?",
+		"response": "Nos équipes travaillent au quotidien pour améliorer nos services et connecter d’autres applications, qui seront disponibles au fur et à mesure. En attendant, si vous souhaitez conserver votre application et tout de même bénéficier des récompenses Running Heroes, vous avez la possibilité d’importer vos activités manuellement. Voici comment faire :<br /><br /><ol><li>Exportez vos activités au format GPX ou TCX et enregistrez les fichiers sur votre ordinateur</li><li>Rendez vous sur l’onglet déroulant de votre profil en haut à droite puis cliquez sur “Importer des GPX ou TCX”</li><li>Cliquez sur “Sélect. fichiers” et sélectionnez ensuite vos fichiers GPX ou TCX.</li></ol>"
+	},
+	{
+		"question": "Mes données sont-elles sécurisées?",
+		"response": "Certainement. Nous sommes très concernés par la sécurité de vos données, qui n’appartiennent qu’à vous. Nous utilisons celles-ci uniquement pour vous récompenser. Nous nous engageons à ne jamais utiliser vos données à d’autres fins.<br /><br />Pour plus de détail, n’hésitez pas à consulter nos Conditions Générales d’Utilisation."
+	},
+	{
+		"question": "J’ai connecté mon application, comment synchroniser mes courses maintenant?",
+		"response": "Vous n’avez rien à faire ! Vos activités seront synchronisées automatiquement. La seule chose qu’il vous reste à faire : courir&nbsp;!"
+	},
+	{
+		"question": "J’ai enregistré une activité sur mon application de running, mais celle-ci ne s’est pas synchronisée avec Running Heroes, pourquoi?",
+		"response": "Il faut généralement attendre quelques minutes entre la fin de votre activité et la prise en compte sur Running Heroes.<br /><br />Pour être sûr que votre activité soit valable, vérifiez :<br /><ul><li>Que la fonction GPS est bien activée. Sans cela nous ne pouvons reconnaitre votre activité et vous récompenser.</li><li>Que votre activité enregistrée sur votre téléphone ou sur votre montre GPS soit bien synchronisée avec le service en ligne de votre application de running (normalement cela se fait automatiquement).</li></ul>"
+	},
+	{
+		"question": "Comment sont calculés les points d’effort?",
+		"response": "L’algorithme intelligent développé par Running Heroes prend en compte principalement trois critères : la distance parcourue, la durée de l’effort et le dénivelé réalisé.<br /><br />Ainsi, que vous couriez de petites distances, de très grandes distances, sur du plat, ou en trail, vous serez justement récompensé."
+	},
+	{
+		"question": "Je suis une femme, est-ce pris en compte lors du calcul de mes points?",
+		"response": "Absolument ! Toutes les études montrent qu’à même niveau d’effort, il existe un écart d’environ 20% entre des performances masculines et féminines. Mesdames, nous avons donc décidé de vous attribuer 20% de points en plus que ces chers Messieurs. Pensez à bien nous indiquer que vous êtes une femme dans votre profil."
+	},
+	{
+		"question": "Comment faire si je ne trouve pas d’offre qui m’intéresse pour dépenser mes points d’effort?",
+		"response": "Le site Running Heroes existe depuis le début de l’année 2014. Nous nous efforçons de nous faire connaitre auprès d’un maximum de marques pour les inciter à devenir partenaire et à vous récompenser. Si aucune offre ne vous intéresse pour le moment, soyez patient et revenez dans quelques temps, il y aura certainement des nouvelles offres disponibles pour vous. Et pendant ce temps, vous continuez bien sûr à cumuler des points d’effort pour vous faire plaisir par la suite."
+	},
+	{
+		"question": "Comment s’assurer que personne ne triche?",
+		"response": "Nous prenons ce sujet très au sérieux.<br /><br />C’est pour cela que seules les activités où votre GPS est allumé sont récompensées.<br /><br />De même, notre algorithme intelligent élimine automatiquement les activités que vous avez réalisées à vélo, à cheval, ou en voiture."
+	},
+	{
+		"question": "Puis-je gagner des points d’effort par des activités provenant de multiples services?",
+		"response": "Bien sûr. Running Heroes est construit pour vous permettre de connecter autant d’applications que vous utilisez.<br /><br />Vous ne pouvez par contre pas cumuler des points pour la même course enregistrée par plusieurs applications différentes. Dans ce cas, une seule activité sera retenue."
+	},
+	{
+		"question": "Problème de connexion avec Nike+",
+		"response": "Nike+ a récemment ajouté des restrictions au pseudonyme des utilisateurs. Maintenant seuls les caractères alphanumériques (sans accent) , ., - et _ sont autorisés. Si vous avez un caractères non autorisés dans votre pseudonyme la connexion n'est pas possible avec Running Heroes. Il vous faut donc vous rendre sur votre compte Nike+, accéder aux paramètres (à cette adresse <a href='https://secure-nikeplus.nike.com/plus/settings' target='_blank'>https://secure-nikeplus.nike.com/plus/settings</a>) puis mettre à jour votre pseudonyme."
+	}
+]

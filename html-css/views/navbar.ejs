@@ -1,0 +1,61 @@
+<script type="text/javascript">
+	window.loggedInUser = <%-(loggedInUser||"''")%>;
+</script>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" ng-controller="NavbarCtrl">
+	<div class="container">
+		<div collapse="isNavbarCollapsed" ng-cloak>
+			<ul class="nav navbar-nav">
+				<li><a href="/rewards" class="brand_font">Récompenses</a></li>
+				<li><a href="/partners" class="brand_font">Devenez&nbsp;partenaire</a></li>
+				<li class="dropdown" ng-if="loggedInUser">
+					<a id="dropdown" role="button" class="dropdown-toggle brand_font_light">
+						<img ng-src="{{loggedInUser.picture}}" class="picto_user" />
+						<span class="dropdown-name" ng-if="loggedInUser.first_name||loggedInUser.last_name">
+							{{loggedInUser.first_name+' '+loggedInUser.last_name}}
+						</span>
+						<span ng-if="!loggedInUser.first_name&&!loggedInUser.last_name"> Menu</span>
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu brand_font_light" role="menu" aria-labelledby="dropdown">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href ng-click="showApps()">Connecter une application</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href ng-click="showEdit()">Editer votre profil</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="/referral">Parrainer des amis</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href ng-click="showImport()">Importer des GPX ou TCX</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href ng-click="showValidateCode()">Activer un code bonus</a></li>
+						<li role="presentation" ng-if="loggedInUser.adminUsers"><a role="menuitem" tabindex="-1" href="/admin/users">Back-Office Users</a></li>
+						<li role="presentation" ng-if="loggedInUser.adminRewards||loggedInUser.partners"><a role="menuitem" tabindex="-1" href="/admin/rewards">Back-Office Partenaires</a></li>
+						<li role="presentation"><a class="brand_font" role="menuitem" tabindex="-1" href="/logout">Déconnexion</a></li>
+					</ul>
+				</li>
+				<li ng-if="!loggedInUser"><a href class="brand_font" ng-click="showSignup()">Inscription/Connexion</a></li>
+			</ul>
+		</div><!--/.nav-collapse -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" ng-click="isNavbarCollapsed = !isNavbarCollapsed">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="/" class="navbar-brand">
+				<img src="http://d13iccluy1t0t3.cloudfront.net/img/navbar-logo.png" />
+			</a>
+			<div class="share">
+				<a href="https://www.facebook.com/RunningHeroes" target="_blank">
+					<i class="fa fa-facebook"></i>
+				</a>
+				<a target="_blank" href="https://twitter.com/Running_Heroes">
+					<i class="fa fa-twitter"></i>
+				</a>
+				<a href="/contact"><i class="fa fa-envelope"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="docked" ng-class="{true: 'open', false: ''}[openFeedback]">
+		<a href class="brand_red_bg brand_font">FAQ</a>
+		<a class="brand_red_bg brand_font" href>Vos remarques</a>
+	</div>
+</div>
+
+<a name="top"></a>

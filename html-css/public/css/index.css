@@ -1,0 +1,544 @@
+.banner {
+	width: 100%;
+	z-index: -1;
+}
+
+.home {
+	padding: 50px 0 0 0 !important;
+}
+
+.tagline {
+	text-transform:uppercase;
+	color: white;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+}
+
+.page-header {
+	position: absolute;
+	top: 34%;
+	border-bottom: none;
+	margin-left: 37%;
+}
+
+.page-header > h1 {
+	font-size: 35px;
+	margin: 5px 0px;
+}
+
+#signin-buttons {
+	margin-top: 20px;
+}
+
+.btn-lg {
+	width: 160px;
+	height: 50px;
+	margin-right: 25px;
+	font-size: 16px;
+	border: 1px solid rgba(255,255,255,0.25);
+}
+
+.gratuit {
+	text-transform: none;
+	font-size: 10px;
+	line-height: 5px;
+}
+
+.brands {
+	text-align: center;
+	-webkit-box-shadow:0 0 1px 1px rgba(0,0,0,.15);
+	-moz-box-shadow:0 0 1px 1px rgba(0,0,0,.15);
+	box-shadow:0 0 1px 1px rgba(0,0,0,.15);
+}
+
+.garmin, .nike, .runkeeper, .runtastic, .strava{
+	background: url("http://d13iccluy1t0t3.cloudfront.net/img/apps_logo.png") no-repeat;
+	display: inline-block;
+}
+
+.garmin{
+	background-position: -53px -193px;
+	width: 82px;
+	height: 70px;
+}
+
+.nike{
+	background-position: -60px -140px;
+	width: 75px;
+	height: 70px;
+}
+
+.runkeeper{
+	background-position: -17px -95px;
+	width: 155px;
+	height: 68px;
+	margin-top: 3px;
+}
+
+.runtastic{
+	background-position: -60px -40px;
+	width: 70px;
+	height: 70px;
+}
+
+.strava{
+	background-position: -50px -12px;
+	width: 90px;
+	height: 30px;
+	margin-top: 22px;
+}
+
+.description {
+	margin-bottom: 60px;
+}
+
+.description > h1 {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.description > h1, .about > h1, .faq > h1, .partners > h1, .press > h1 {
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.description > h1 > span, .about > h1 > span, .faq > h1 > span, .partners > h1 > span, .press > h1 > span {
+	font-size: 22px;
+	height: 54px;
+	display: inline-block;
+	position: relative;
+	top: -18px;
+}
+
+.description > .wrapper > .row > .col-xs-4 > .card {
+	margin: 0 auto;
+}
+
+.runner, .screens, .card, .coupons{
+	background: url("http://d13iccluy1t0t3.cloudfront.net/img/card%2Bpicto.png") no-repeat;
+}
+
+.runner, .screens, .coupons{
+	margin: 0 auto;
+}
+
+.picto {
+	padding: 10px 0 30px 0;
+	border-bottom: 1px solid white;
+}
+
+.runner{
+	background-position: -263px -118px ;
+	width: 96px;
+	height: 104px;
+}
+
+.screens{
+	background-position: -251px 0;
+	width: 139px;
+	height: 104px;
+}
+
+.card{
+	background-position: 0 0;
+	width: 247px;
+	height: 377px;
+	margin: 0 auto;
+}
+
+.coupons{
+	background-position: -275px -246px ;
+	width: 91px;
+	height: 104px;
+}
+
+.card_number {
+	color: white;
+	font-size: 14px;
+	margin: 2px 0 0 8px;
+	display: inline-block;
+	font-weight: 900;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+}
+
+.title {
+	font-size: 17px;
+	line-height: 17px;
+	margin: 20px 0 10px 20px;
+}
+
+.content {
+	font-size: 14px;
+	line-height: 15px;
+	color: #353535;
+	margin: 0 20px;
+}
+
+.runkeeper_app, .runtastic_app, .strava_app, .garmin_app, .nike_app, .mapmyrun_app {
+	background: url("http://d13iccluy1t0t3.cloudfront.net/img/apps.png") no-repeat;
+	display: inline-block;
+	padding-top: 65px;
+}
+
+.runkeeper_app{
+	background-position: -185px 0;
+	width: 60px;
+	height: 60px;
+}
+
+.runtastic_app{
+	background-position: -61px 0;
+	width: 60px;
+	height: 60px;
+}
+
+.strava_app{
+	background-position: -248px 0;
+	width: 60px;
+	height: 60px;
+}
+
+.garmin_app{
+	background-position: -123px 0;
+	width: 60px;
+	height: 60px;
+}
+
+.nike_app{
+	background-position: 0 0;
+	width: 60px;
+	height: 60px;
+}
+
+.mapmyrun_app{
+	background-position: -310px 0;
+	width: 60px;
+	height: 60px;
+}
+
+.grey {
+	color: #353535;
+	text-align: center;
+	background-color: #f2f2f2;
+	border: 1px solid #d2d2d2;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+.function {
+	margin-top: 30px;
+	border-bottom: 1px solid white;
+	font-weight: 500;
+}
+
+.col-xs-12 {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.running_apps {
+	border-top: none;
+	padding: 30px 0 15px 0;
+	font-size: 12px;
+}
+
+.about {
+	padding: 100px 0 30px 0 !important;
+	background: url("http://d13iccluy1t0t3.cloudfront.net/img/about_banner.jpg") no-repeat;
+	background-size: cover;
+	min-height: 550px;
+}
+
+.about > h1 {
+	position: absolute;
+	/*margin-top: -40%;*/
+	top: 3%;
+	color: rgba(255,255,255,0.7);
+	width: 100%;
+}
+
+.wrapper2 {
+	width: 100%;
+	padding: 0 18%;
+	margin-top: 5%;
+}
+
+.about > .wrapper2 > .row {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.about > .wrapper2 > .row > .col-md-4 > div {
+	background-color: rgba(255,255,255,0.5);
+	padding: 25px 20px;
+	margin: 0 auto;
+	min-height: 280px;
+	max-width: 250px;
+	color: #282b30;
+}
+
+.partners > h1 {
+	color: #00B459;
+	font-size: 55px;
+	margin: 70px 0 50px 0;
+}
+
+.partners > h1 > span {
+	top: -12px;
+}
+
+.slick-next, .slick-prev {
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+.slick-next:hover, .slick-prev:hover {
+	background-color: rgba(0,0,0,1);
+}
+
+.partner-img {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.press-img {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.press {
+	/*background-color: rgba(244,54,3,0.65);*/
+	background-color: #F5F5F5;
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+
+.press > h1 {
+	/*color: rgba(255,255,255,0.7);*/
+	color: rgba(9, 38, 109, 1);
+	font-size: 55px;
+	margin: 70px 0px 50px 0px;
+}
+
+.press > h1 > span {
+	top: -13px;
+}
+
+.faq {
+	padding-top: 50px;
+	margin-bottom: 120px;
+}
+
+.faq > h1 {
+	color: #3c9ecd;
+}
+
+.questions, .question h4 {
+	color: #747474;
+	font-weight: 500;
+	font-family: "DIN Light" !important;
+}
+
+.question h4 > a {
+	cursor: pointer;
+}
+
+.rotate {
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+
+.caret {
+	margin-right: 5px;
+}
+
+.panel-default {
+	margin: 20px 0 !important;
+	border: none;
+	box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+	background-color: #fff;
+	border: none;
+}
+
+.question_btn {
+	background: rgb(221,221,221); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RkZGRkZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMGQwZDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(221,221,221,1) 0%, rgba(208,208,211,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(221,221,221,1)), color-stop(100%,rgba(208,208,211,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(221,221,221,1) 0%,rgba(208,208,211,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(221,221,221,1) 0%,rgba(208,208,211,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(221,221,221,1) 0%,rgba(208,208,211,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(221,221,221,1) 0%,rgba(208,208,211,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#d0d0d3',GradientType=0 ); /* IE6-8 */
+
+	box-shadow: 0 3px #969696;
+	text-transform: uppercase;
+	font-weight: 500;
+	width: 200px;
+	border: 1px solid rgba(150,150,150,0.5);
+	margin: 0 0 0 10px;
+
+	color: black;
+	height: 43px;
+
+	-webkit-text-stroke: 0px rgba(0,0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1110px) {
+
+	.about > .wrapper2 > .row > .col-md-4 > div {
+		min-height: 330px;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.wrapper2 {
+		position: relative;
+		top: 0px;
+		padding: 0 3%;
+	}
+
+	.about > .wrapper2 > .row > .col-md-4 > div {
+		padding: 10px 20px;
+		min-height: 100%;
+		max-width: none;
+		color: #282b30;
+		text-align: justify;
+	}
+
+}
+
+@media (max-width: 860px) {
+	.page-header > h1 {
+		font-size: 5vw;
+	}
+
+	.page-header {
+		top: 15%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-5 {
+		display: none;
+	}
+
+	.running_apps .col-sm-6 {
+		margin: 15px 0;
+	}
+}
+
+@media (max-width: 700px) {
+
+	.home {
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.home .banner {
+		width: initial;
+		height: 250px;
+	}
+}
+
+@media (max-width: 615px) {
+
+	.page-header {
+		margin-left: 10%;
+	}
+
+	.page-header > h1 {
+		font-size: 7.5vw;
+	}
+
+	#signin-buttons {
+		text-align: center;
+	}
+
+	.btn-lg {
+		margin-bottom: 10px;
+	}
+
+	.description > h1, .about > h1, .faq > h1 {
+		font-size: 11vw;
+		white-space: nowrap;
+	}
+
+	.partners > h1, .press > h1 {
+		font-size: 7.7vw;
+	}
+
+	.description > h1 > span, .about > h1 > span, .faq > h1 > span, .partners > h1 > span, .press > h1 > span {
+		font-size: 5vw;
+		top: -2vw;
+	}
+
+	.partners > h1 > span, .press > h1 > span {
+		font-size: 3vw;
+	}
+}
+
+@media (max-width: 530px) {
+
+	.partner-img, .press-img {
+		width: 50%;
+	}
+
+	.slick-prev {
+		left: 0px;
+	}
+
+	.slick-next {
+		right: 0px;
+	}
+}
+
+@media (max-width: 440px) {
+	.page-header {
+		top: 35%;
+	}
+
+	.page-header > h1 {
+		font-size: 6vw;
+	}
+
+	.description > h1 {
+		margin-top: 60px;
+	}
+
+	#signin-buttons {
+		white-space: nowrap;
+	}
+
+	.signup_btn, .signin_btn {
+		width: 53%;
+		text-align: center;
+		padding-right: 0;
+		padding-left: 0;
+		margin-right: 15px;
+	}
+}

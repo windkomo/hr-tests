@@ -1,0 +1,54 @@
+<div class="footer brand_font_light" ng-controller="FooterCtrl">
+	<div class="container">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-xs-6">
+					<a name="newsletter"></a>
+					<span class="newsletter hidden-xs"></span>
+					<div class="subscribe_nl"><span class="hide_text">INSCRIVEZ&nbsp;VOUS&nbsp;À&nbsp;LA&nbsp;</span>NEWSLETTER</div>
+					<div style="font-size:10px;float:right;width:70%;padding-left:2px;" class="hidden-xs">
+						Et&nbsp;restez&nbsp;au&nbsp;courant&nbsp;de&nbsp;toute&nbsp;l'actualité&nbsp;Running&nbsp;Heroes
+					</div>
+					<div class="input-group input-group-sm">
+						<input type="email" class="form-control" ng-model="email" placeholder="Adresse e-mail">
+						<span class="input-group-btn">
+							<button class="btn btn-default brand_red_bg" type="button" ng-click="subscribe()">Valider</button>
+						</span>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<a href="https://www.facebook.com/RunningHeroes" class="social_link fb_link" target="_blank">
+								<span class="picto_fb"><i class="fa fa-facebook"></i></span>
+								<span class="social_tagline">Retrouvez&nbsp;nous sur&nbsp;Facebook</span>
+							</a>
+						</div>
+						<div class="col-sm-6">
+							<a href="https://twitter.com/Running_Heroes" class="social_link tw_link" target="_blank">
+								<span class="picto_tw"><i class="fa fa-twitter"></i></span>
+								<span class="social_tagline">Suivez&nbsp;nous<br class="show_br" /> sur&nbsp;Twitter</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-1 hidden-xs"></div>
+				<div class="col-xs-2">
+					<div class="footer_category">SOCIÉTÉ</div>
+					<a href="/doc/presse">Presse</a>
+					<a href="/contact">Nous contacter</a>
+					<a href="/doc/cgu">CGU</a>
+					<a href="/doc/mentions">Mentions légales</a>
+				</div>
+				<div class="col-xs-3">
+					<div class="footer_category">PLAN&nbsp;DU&nbsp;SITE</div>
+					<% if (loggedInUser) { %>
+						<a href="/logout">Déconnexion</a>
+					<% } else { %>
+						<a href ng-click="showSignup()">Inscription/Connexion</a>
+					<% } %>
+					<a href="/rewards">Récompenses</a>
+					<a href="/partners">Devenez Partenaire</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
