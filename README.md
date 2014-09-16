@@ -1,7 +1,7 @@
-hr-tests
+Recruiting exercises
 ========
 
-HR tests:
+These exercises are given as a first and lightweight evaluation of candidates coding, research and problem solving skills.
 
 See readme in sub folders for instructions.
 - html-css: ~3h
