@@ -145,6 +145,10 @@ html, body {
 		color: white !important;
 	}
 
+	.navbar-toggle {
+
+	}
+
 	.nav .dropdown-menu {
 		background-color: #373737;
 		border: none;
@@ -611,8 +615,29 @@ html, body {
 
 @media (max-width: 767px) {
 
+
+	.navbar {
+		width:223px;
+
+	}
+
 	.message {
 		display: none !important;
+	}
+
+	.navbar-toggle {
+		top: -170px;
+		left: 70px;
+	}
+
+	.navbar .share {
+		position: relative;
+		left:227px;
+		width:20px;
+
+	}
+	.navbar .share a {
+		display:block;
 	}
 
 	.navbar-toggle > .icon-bar {

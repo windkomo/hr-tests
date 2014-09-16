@@ -1,13 +1,4 @@
 
-/*
-	- log in to db: test at host: 54.77.40.159 with user: temp-user and password: temp-user@runningheroes.pwd
-	- create user in db: test, collection: users
-	- update user adding the new Nike activity
-
-	--> the results of the exercise are the 3 mongo commands
-*/
-
-
 var user = {
     "apps": {
         "runtastic": {
