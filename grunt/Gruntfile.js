@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     shell: {
         push: {
             command: [
-              'cd dist', 'git add --all .', 'git add --all .', 'git diff-index --quiet HEAD || git commit -F ../commit.txt', 'git aws.push --environment '+(grunt.option("env")||"pprod-runningheroes-env")
+              'cd dist', 'git add --all .', 'git diff-index --quiet HEAD || git commit -F ../commit.txt', 'git aws.push --environment '+(grunt.option("env")||"pprod-runningheroes-env")
             ].join('&&')
         }
     }
