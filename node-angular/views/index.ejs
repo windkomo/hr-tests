@@ -3,8 +3,9 @@
 
 	<body ng-controller="IndexCtrl">
 		<form method="POST" action="/">
-			<input type="email" placeholder="email" />
-			<input type="submit" />
+			<input ng-model="email" ng-change="checkEmail(email)" name="email" type="email" placeholder="email" />
+			<span name="emailValidator">{{ disposableMessage || "<%= emailMessage %>" }}</span>
+			<input type="submit" ng-disabled="disposableMessage"/>
 		</form>
 		<% include js %>
 	</body>
