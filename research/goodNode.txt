@@ -1,0 +1,49 @@
+1) Node/Express Code organisation :
+
+  Keep application logic as separate from the Express routes as possible :
+  
+  Create controller modules , which receive database and configuration variables (allows for swapping out later if required, or mocking for testing).
+  
+  In the routes, use these controller classes, passing them the database.
+  Allows to cleanly test logic.
+  
+  Cleanly organize your modules :
+  Core first
+  Public modules
+  Custom modules
+  
+  (For example, but always use the same order)
+
+2) Node specifics :
+  
+  Avoid nested callbacks "CALLBACK HELL" : use promises (or other methods).
+  
+  Use asynchronous functions as much as possible for performance.
+  
+  Define exports and variable declarations in a single place
+  
+  Always check for errors in callbacks.
+  
+  Before starting a new module, check npm modules. There is a good chance that it already exists.
+  
+  Make a module for a functionality if you think it can be called from somewhere else (or if you think someone can use it).
+
+3) General :
+
+  Follow the zen of Python :
+  
+  Explicit is better than implicit. Flat is better than nested. Readability counts.
+  
+  Explanation :
+  
+  1) Verbose simple code is better than clever, hard to understand code.
+  2) Split large functions into smaller functions. It also helps avoiding "callback hell"
+  3) If your module is called "user", don't call your function getUser but get so that you need to call user.get instead of user.getUser.
+  
+  Unit testing is mandatory for maintenable code !
+  Don't consider your code finished unless unit testing is done !!
+  
+  Basic development good practices : always comment your code !!!
+  Functions NEED to be commented (I/O, main pirpose). 
+  If you code something clever, no comments will turn it into something stupid next time someone comes across it!
+
