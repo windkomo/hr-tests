@@ -40,7 +40,7 @@ var user = {
             ],
             "id": "98259690"
         }
-    }
+    },
     "email": "jc.touzalin@runningheroes.com"
 };
 
