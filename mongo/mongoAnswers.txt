@@ -1,0 +1,12 @@
+1) mongo --host 54.77.40.159 -u temp-user -ptemp-user@runningheroes.pwd test exercise.js --shell
+(note : si omission de test, on se connecte automatiquement à la base test)
+
+je pars du principe qu'on est connecté par la commande 1.
+
+2) Il y a une virgule manquante dans le fichier exercise.js avant l'email du user.
+db.users.insert(user)
+
+
+3)db.users.update({email: "jc.touzalin@runningheroes.com"},{ $push: { "apps.nike.activities": newNikeActivity }})
+
+4)db.users.update({"apps.nike.activities.id": newNikeActivity.id},{ $set: { "apps.nike.activities.$.distance": 30000 }})
